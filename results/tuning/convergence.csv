@@ -1,0 +1,73 @@
+dataset,algorithm,n_batches,settings,mean_objective_851_900,mean_objective_951_1000,relative_change,status,mean_best_epoch
+wine,sgd,32,lr=0.3,0.0434726,0.0434354,-0.000856368,converged,460.2
+wine,sgd,16,lr=1,0.0435412,0.0435117,-0.000677139,converged,568.2
+wine,sgd,8,lr=1,0.043509,0.0434701,-0.000893826,converged,471.8
+wine,sgd,4,lr=3,0.0436467,0.0436109,-0.000821066,converged,338.6
+wine,sgd,2,lr=3,0.0437154,0.0436591,-0.00128555,converged,276.4
+wine,sgd,1,lr=9,0.0438924,0.0438449,-0.0010829,converged,7.4
+wine,pso,32,v_max=0.003,1.14893,1.14893,0,converged,5.2
+wine,pso,16,v_max=0.003,1.10995,1.1101,0.000132915,converged,6.4
+wine,pso,8,v_max=none,0.485793,0.491381,0.013111,late drift,262.6
+wine,pso,4,v_max=none,0.246395,0.245676,-0.00311773,converged,414.6
+wine,pso,2,v_max=0.5,0.207197,0.20527,-0.00944246,converged,557.2
+wine,pso,1,v_max=0.1,0.0478626,0.0475207,-0.00715542,converged,232.6
+wine,qpso,32,"n_quantum=15, r_cloud=0.05, v_max=0.003",0.0612331,0.0612481,0.000432289,converged,603.6
+wine,qpso,16,"n_quantum=15, r_cloud=0.05, v_max=0.001",0.0544583,0.0540479,-0.00761042,converged,770.6
+wine,qpso,8,"n_quantum=15, r_cloud=0.05, v_max=0.01",0.0503131,0.0497056,-0.0119587,still improving,748.2
+wine,qpso,4,"n_quantum=15, r_cloud=0.05, v_max=0.01",0.047746,0.0474054,-0.00708184,converged,843.8
+wine,qpso,2,"n_quantum=15, r_cloud=0.2, v_max=0.01",0.0467949,0.046505,-0.00620046,converged,684.2
+wine,qpso,1,"n_quantum=15, r_cloud=0.2, v_max=0.03",0.0442111,0.0440718,-0.00314974,converged,500
+wine,pso_reeval,32,v_max=0.003,0.0616863,0.0613767,-0.00491372,converged,735.2
+wine,pso_reeval,16,v_max=0.003,0.0545936,0.0546052,0.000178189,converged,914.8
+wine,pso_reeval,8,v_max=0.01,0.0504831,0.0503801,-0.00198976,converged,564
+wine,pso_reeval,4,v_max=0.01,0.0485487,0.0481245,-0.00873172,converged,754.4
+wine,pso_reeval,2,v_max=0.03,0.0466726,0.0465894,-0.00177386,converged,787
+wine,pso_reeval,1,v_max=0.1,0.0478626,0.0475207,-0.00715542,converged,232.6
+wdbc,sgd,32,lr=0.1,0.1297,0.129677,-0.000174092,converged,473.8
+wdbc,sgd,16,lr=0.1,0.129847,0.129784,-0.000479603,converged,643.8
+wdbc,sgd,8,lr=0.3,0.129685,0.129648,-0.000284946,converged,522.6
+wdbc,sgd,4,lr=1,0.129929,0.129917,-9.52597e-05,converged,532
+wdbc,sgd,2,lr=1,0.12981,0.129763,-0.000362515,converged,721.8
+wdbc,sgd,1,lr=3,0.13012,0.130102,-0.000141329,converged,898.8
+wdbc,pso,32,v_max=0.003,0.681317,0.681317,0,converged,7.4
+wdbc,pso,16,v_max=0.5,0.555874,0.555874,0,converged,72.8
+wdbc,pso,8,v_max=0.5,0.407426,0.407608,0.000335683,converged,498
+wdbc,pso,4,v_max=0.5,0.396769,0.398027,0.00318683,converged,355
+wdbc,pso,2,v_max=0.5,0.366356,0.365439,-0.00251157,converged,391.2
+wdbc,pso,1,v_max=0.03,0.141408,0.139933,-0.0104098,still improving,590.4
+wdbc,qpso,32,"n_quantum=15, r_cloud=0.003, v_max=0.001",0.138125,0.137867,-0.00186545,converged,827.6
+wdbc,qpso,16,"n_quantum=5, r_cloud=0.0125, v_max=0.001",0.136207,0.135836,-0.00271952,converged,815.4
+wdbc,qpso,8,"n_quantum=15, r_cloud=0.05, v_max=0.001",0.137275,0.136875,-0.00291466,converged,806.6
+wdbc,qpso,4,"n_quantum=15, r_cloud=0.05, v_max=0.003",0.136153,0.135655,-0.0036604,converged,970.8
+wdbc,qpso,2,"n_quantum=15, r_cloud=0.2, v_max=0.003",0.135741,0.135222,-0.0038147,converged,757
+wdbc,qpso,1,"n_quantum=15, r_cloud=0.2, v_max=0.01",0.134219,0.133372,-0.00630579,converged,647.2
+wdbc,pso_reeval,32,v_max=0.001,0.137897,0.137815,-0.000582285,converged,747.6
+wdbc,pso_reeval,16,v_max=0.003,0.13861,0.138255,-0.00255545,converged,654.4
+wdbc,pso_reeval,8,v_max=0.003,0.137673,0.137105,-0.00411397,converged,792
+wdbc,pso_reeval,4,v_max=0.01,0.139631,0.139516,-0.000821506,converged,604
+wdbc,pso_reeval,2,v_max=0.01,0.137014,0.136193,-0.00598957,converged,891
+wdbc,pso_reeval,1,v_max=0.03,0.141408,0.139933,-0.0104098,still improving,590.4
+glass,sgd,32,lr=0.1,0.471351,0.4697,-0.0034872,converged,595.2
+glass,sgd,16,lr=0.3,0.468985,0.467878,-0.00235166,converged,568.8
+glass,sgd,8,lr=0.3,0.476937,0.474433,-0.00521543,converged,571.4
+glass,sgd,4,lr=1,0.481447,0.480839,-0.00122856,converged,622.4
+glass,sgd,2,lr=1,0.486365,0.482072,-0.00880377,converged,781.4
+glass,sgd,1,lr=1,0.524479,0.514485,-0.0190793,still improving,981.2
+glass,pso,32,v_max=0.01,1.65947,1.65903,-0.000269212,converged,533.6
+glass,pso,16,v_max=0.03,1.61159,1.61134,-0.00016265,converged,643.6
+glass,pso,8,v_max=0.1,1.572,1.57175,-0.000158805,converged,138.4
+glass,pso,4,v_max=0.5,1.48916,1.48916,0,converged,136
+glass,pso,2,v_max=none,1.26195,1.26224,0.00023982,converged,496.8
+glass,pso,1,v_max=0.1,0.534705,0.52855,-0.0115111,still improving,849.6
+glass,qpso,32,"n_quantum=5, r_cloud=0.0125, v_max=0.01",0.719632,0.705785,-0.0191755,still improving,903.2
+glass,qpso,16,"n_quantum=5, r_cloud=0.0125, v_max=0.03",0.677025,0.662117,-0.0218113,still improving,760
+glass,qpso,8,"n_quantum=5, r_cloud=0.05, v_max=0.03",0.634458,0.625024,-0.0147409,still improving,949.6
+glass,qpso,4,"n_quantum=5, r_cloud=0.2, v_max=0.03",0.646434,0.631866,-0.0227394,still improving,815.6
+glass,qpso,2,"n_quantum=5, r_cloud=0.2, v_max=0.1",0.577704,0.568011,-0.016654,still improving,717.6
+glass,qpso,1,"n_quantum=15, r_cloud=0.2, v_max=none",0.524298,0.514997,-0.0177015,still improving,871.8
+glass,pso_reeval,32,v_max=0.01,0.709112,0.694205,-0.0209898,still improving,931
+glass,pso_reeval,16,v_max=0.03,0.681331,0.675298,-0.00818153,converged,776
+glass,pso_reeval,8,v_max=0.03,0.639856,0.630446,-0.0147241,still improving,910.2
+glass,pso_reeval,4,v_max=0.03,0.647857,0.632034,-0.0245088,still improving,870.2
+glass,pso_reeval,2,v_max=0.1,0.580604,0.573736,-0.011819,still improving,803.8
+glass,pso_reeval,1,v_max=0.1,0.534705,0.52855,-0.0115111,still improving,849.6

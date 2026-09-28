@@ -1,0 +1,12 @@
+dataset,class,class_name,train,val,test,total
+wine,0,class_0,35,12,12,59
+wine,1,class_1,43,14,14,71
+wine,2,class_2,28,10,10,48
+wdbc,0,malignant,127,43,42,212
+wdbc,1,benign,214,71,72,357
+glass,0,building float,42,14,14,70
+glass,1,building non-float,46,15,15,76
+glass,2,vehicle float,10,4,3,17
+glass,3,containers,8,2,3,13
+glass,4,tableware,5,2,2,9
+glass,5,headlamps,17,6,6,29

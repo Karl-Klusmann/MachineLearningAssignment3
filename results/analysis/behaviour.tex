@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering
+\caption{Behaviour of the PSO variants (medians over 30 seeds): gbest changes per epoch, ratio of the actual to the stored gbest objective at the final epoch, clamp fraction over the last 100 epochs, and final diversity and $\|W_1\|$.}
+\label{tab:behaviour}
+\begin{tabular}{lrlrrrrr}
+\toprule
+Problem & Batches & Algorithm & gbest changes / epoch & Actual / stored & Clamp fraction & Diversity & $\|W_1\|$ \\
+\midrule
+Wine & 32 & static PSO & 0.012 & 1.88 & 0.0874 & 0.19 & 2.23 \\
+ & 32 & PSO + re-evaluation & 32 & 1.45 & 0.0358 & 0.0161 & 4.56 \\
+ & 32 & QPSO & 32 & 1.43 & 0.268 & 0.0423 & 4.67 \\
+ & 1 & static PSO & 0.8 & 1 & 0.00123 & 0.145 & 5.69 \\
+ & 1 & QPSO & 0.843 & 1 & 0.00484 & 0.135 & 5.33 \\
+\midrule
+WDBC & 32 & static PSO & 0.013 & 2 & 0.0174 & 0.0177 & 1.96 \\
+ & 32 & PSO + re-evaluation & 32 & 1.17 & 0.0345 & 0.00751 & 2.46 \\
+ & 32 & QPSO & 32 & 1.15 & 0.0236 & 0.00553 & 2.45 \\
+ & 1 & static PSO & 0.909 & 1 & 0.00364 & 0.0848 & 2.79 \\
+ & 1 & QPSO & 0.927 & 1 & 0.0125 & 0.125 & 2.63 \\
+\midrule
+Glass & 32 & static PSO & 0.0255 & 1.59 & 0.00427 & 0.0204 & 1.84 \\
+ & 32 & PSO + re-evaluation & 32 & 1.43 & 0.036 & 0.0506 & 11.2 \\
+ & 32 & QPSO & 32 & 1.34 & 0.0334 & 0.0469 & 10.8 \\
+ & 1 & static PSO & 0.813 & 1 & 0.00758 & 0.26 & 13.6 \\
+ & 1 & QPSO & 0.919 & 1 & 0 & 1.05 & 14 \\
+\bottomrule
+\end{tabular}
+\end{table*}

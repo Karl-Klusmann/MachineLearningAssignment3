@@ -1,0 +1,4 @@
+dataset,samples,features,classes,class_counts,imbalance_ratio,missing_values,duplicates,n_train,n_val,n_test,architecture,n_weights
+wine,178,13,3,59/71/48,1.48,0,0,106,36,36,13-20-3,343
+wdbc,569,30,2,212/357,1.68,0,0,341,114,114,30-20-2,662
+glass,214,9,6,70/76/17/13/9/29,8.44,0,1,128,43,43,9-18-6,294

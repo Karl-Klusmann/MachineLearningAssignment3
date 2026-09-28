@@ -1,0 +1,93 @@
+{
+  "procedure": "docs/analysis_procedure.md",
+  "n_configurations": 15,
+  "better_counts": {
+    "C1": 15,
+    "C2": 15,
+    "C3": 2,
+    "C4": 4
+  },
+  "RQ1": {
+    "verdict": "yes",
+    "rule": "C1 (QPSO vs static PSO) 'better' in >= 8 of 15",
+    "C1_better": 15
+  },
+  "RQ2": {
+    "verdict": "supported",
+    "rule": "Spearman rho(n_batches, median of static PSO minus QPSO test CE) > 0 on all three problems",
+    "rho": {
+      "wine": 0.8999999999999998,
+      "wdbc": 0.9999999999999999,
+      "glass": 0.9999999999999999
+    }
+  },
+  "RQ3": {
+    "verdict": "re-evaluation (C2)",
+    "rule": "larger 'better' count of C2 (re-evaluation) and C3 (quantum particles)",
+    "C2_better": 15,
+    "C3_better": 2
+  },
+  "RQ4": {
+    "verdict": "no",
+    "rule": "C4 (QPSO vs SGD) 'better' in >= 8 of 15",
+    "C4_better": 4
+  },
+  "hypothesis": {
+    "verdict": "partially supported",
+    "rule": "supported if RQ1 and RQ4 are yes; partially supported if only RQ1; not supported if RQ1 is no"
+  },
+  "checks": {
+    "train_objective": {
+      "n_configurations": 15,
+      "better_counts": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 6,
+        "C4": 0
+      },
+      "RQ3_mechanism": "re-evaluation (C2)",
+      "RQ1_rule": "yes",
+      "RQ4_rule": "no"
+    },
+    "a_test_f1": {
+      "n_configurations": 15,
+      "better_counts": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 0,
+        "C4": 2
+      },
+      "RQ3_mechanism": "re-evaluation (C2)",
+      "RQ1_rule": "yes",
+      "RQ4_rule": "no"
+    },
+    "b_equal_cost": {
+      "n_configurations": 15,
+      "better_counts": {
+        "C1": 15,
+        "C2": 15,
+        "C3": 2
+      },
+      "RQ3_mechanism": "re-evaluation (C2)",
+      "RQ1_rule": "yes",
+      "RQ2_rho": {
+        "wine": 0.8999999999999998,
+        "wdbc": 0.9999999999999999,
+        "glass": 0.9999999999999999
+      }
+    },
+    "c_glass2000": {
+      "n_configurations": 5,
+      "better_counts": {
+        "C1": 5,
+        "C2": 5,
+        "C3": 1,
+        "C4": 0
+      },
+      "RQ3_mechanism": "re-evaluation (C2)",
+      "RQ2_rho": {
+        "glass": 0.9999999999999999
+      }
+    }
+  }
+}

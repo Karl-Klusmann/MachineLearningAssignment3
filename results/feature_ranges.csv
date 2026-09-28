@@ -1,0 +1,53 @@
+dataset,feature,min,max
+wine,alcohol,11.03,14.83
+wine,malic_acid,0.74,5.8
+wine,ash,1.36,3.23
+wine,alcalinity_of_ash,10.6,30.0
+wine,magnesium,70.0,162.0
+wine,total_phenols,0.98,3.88
+wine,flavanoids,0.34,5.08
+wine,nonflavanoid_phenols,0.13,0.66
+wine,proanthocyanins,0.41,3.58
+wine,color_intensity,1.28,13.0
+wine,hue,0.48,1.71
+wine,od280/od315_of_diluted_wines,1.27,4.0
+wine,proline,278.0,1680.0
+wdbc,mean radius,6.981,28.11
+wdbc,mean texture,9.71,39.28
+wdbc,mean perimeter,43.79,188.5
+wdbc,mean area,143.5,2501.0
+wdbc,mean smoothness,0.05263,0.1634
+wdbc,mean compactness,0.01938,0.3454
+wdbc,mean concavity,0.0,0.4268
+wdbc,mean concave points,0.0,0.2012
+wdbc,mean symmetry,0.106,0.304
+wdbc,mean fractal dimension,0.04996,0.09744
+wdbc,radius error,0.1115,2.873
+wdbc,texture error,0.3602,4.885
+wdbc,perimeter error,0.757,21.98
+wdbc,area error,6.802,542.2
+wdbc,smoothness error,0.001713,0.03113
+wdbc,compactness error,0.002252,0.1354
+wdbc,concavity error,0.0,0.396
+wdbc,concave points error,0.0,0.05279
+wdbc,symmetry error,0.007882,0.07895
+wdbc,fractal dimension error,0.0008948,0.02984
+wdbc,worst radius,7.93,36.04
+wdbc,worst texture,12.02,49.54
+wdbc,worst perimeter,50.41,251.2
+wdbc,worst area,185.2,4254.0
+wdbc,worst smoothness,0.07117,0.2226
+wdbc,worst compactness,0.02729,1.058
+wdbc,worst concavity,0.0,1.252
+wdbc,worst concave points,0.0,0.291
+wdbc,worst symmetry,0.1565,0.6638
+wdbc,worst fractal dimension,0.05504,0.2075
+glass,RI,1.51115,1.53393
+glass,Na,10.73,17.38
+glass,Mg,0.0,4.49
+glass,Al,0.29,3.5
+glass,Si,69.81,75.41
+glass,K,0.0,6.21
+glass,Ca,5.43,16.19
+glass,Ba,0.0,3.15
+glass,Fe,0.0,0.51

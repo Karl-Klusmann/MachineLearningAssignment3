@@ -1,0 +1,7 @@
+measure,dataset,better,worse,no difference
+test_f1,wine,2,1,2
+test_f1,wdbc,0,1,4
+test_f1,glass,0,4,1
+train_objective,wine,0,5,0
+train_objective,wdbc,0,5,0
+train_objective,glass,0,5,0
